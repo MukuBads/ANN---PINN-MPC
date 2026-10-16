@@ -1,0 +1,22 @@
+<section id="summary" style="background:#14213D;color:#F7F5F0;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="position:absolute;left:0;top:0;width:24px;height:1080px;background:#F08A3E"></div>
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#F08A3E">05 · Summary</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#F7F5F0">Three takeaways</h2>
+<div style="display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;gap:40px;align-items:start">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1;color:#F08A3E;width:80px">1</p>
+<p style="flex:1;font-size:36px;line-height:1.4;color:#F7F5F0">PINN-MPC works: within 4 % of perfect-model MPC, about 200× faster per solve.</p>
+</div>
+<div style="display:flex;gap:40px;align-items:start">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1;color:#F08A3E;width:80px">2</p>
+<p style="flex:1;font-size:36px;line-height:1.4;color:#F7F5F0">Boundary-consistent training data mattered more than the weighting scheme: 3–6× lower error.</p>
+</div>
+<div style="display:flex;gap:40px;align-items:start">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1;color:#F08A3E;width:80px">3</p>
+<p style="flex:1;font-size:36px;line-height:1.4;color:#F7F5F0">Across 3 seeds, causal and uniform weighting are tied in this regime; causal may be more repeatable.</p>
+</div>
+</div>
+<p style="font-size:36px;font-weight:600;color:#F08A3E">Thank you. Questions?</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#9AA6BD">Review 2 · Causality-aware PINN-MPC · 15</p>
+<aside>Close on the three points. If asked why causal did not help: we have not tested the reason yet. Two candidates: this regime may be mild enough that uniform training already gets early times right, and ε never annealed, so causal training only ran at its gentlest setting. Both are on the next-steps list.</aside>
+</section>

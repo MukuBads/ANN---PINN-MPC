@@ -1,0 +1,8 @@
+<section id="openloop" style="background:#F7F5F0;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#B4501A">03 · Results</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#14213D">Open-loop accuracy: the two weightings are tied</h2>
+<img src="/_blob/aacd5d1be516e81c996f5ffd57e86342" alt="Left: RMSE of concentration within one hop rising from about 0.001 to 0.003 for both weightings with overlapping seed bands. Right: outlet-concentration error over 20 chained hops around 0.003 to 0.005 for both, about 100 times above the encoding-only floor" style="width:1480px;height:498px;object-fit:contain;background:#FFFFFF;border-radius:12px">
+<p style="font-size:26px;line-height:1.4;color:#4A5568;width:1480px">Lines: mean of 3 seeds; bands: min–max. Error after 8 hops is 5.1 × 10⁻³ for both. It stays about 100× above the encoding floor, so the network, not the encoding, limits accuracy.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7280">Review 2 · Causality-aware PINN-MPC · 8</p>
+<aside>Error is measured against the finite-difference model on 40 test trajectories of 20 hops. The bands overlap everywhere. Chained error rises over the first few hops and then levels off instead of growing without bound. The dashed line is what a perfect network would still get from the 6-coefficient encoding alone.</aside>
+</section>

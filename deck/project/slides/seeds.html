@@ -1,0 +1,15 @@
+<section id="seeds" style="background:#F7F5F0;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#B4501A">03 · Results</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#14213D">Closed loop across 3 seeds: equal tracking</h2>
+<table style="font-size:30px;color:#14213D">
+<tr><th style="width:40%">Controller</th><th style="width:20%;text-align:right">IAE</th><th style="width:20%;text-align:right">Mean offset</th><th style="width:20%;text-align:right">Solve time</th></tr>
+<tr style="background:#ECE8DF"><td>FD-MPC (perfect model)</td><td style="text-align:right">0.306</td><td style="text-align:right">≈ 0</td><td style="text-align:right">8.15 s</td></tr>
+<tr><td>PINN-MPC, uniform</td><td style="text-align:right">0.326 ± 0.005</td><td style="text-align:right">1.3 × 10⁻³</td><td style="text-align:right">0.034 s</td></tr>
+<tr><td>PINN-MPC, causal</td><td style="text-align:right">0.322 ± 0.004</td><td style="text-align:right">1.3 × 10⁻³</td><td style="text-align:right">0.035 s</td></tr>
+<tr><td>Uniform + filtered bias</td><td style="text-align:right">0.318 ± 0.004</td><td style="text-align:right">0.51 × 10⁻³</td><td style="text-align:right">0.038 s</td></tr>
+<tr><td>Causal + filtered bias</td><td style="text-align:right">0.318 ± 0.002</td><td style="text-align:right">0.52 × 10⁻³</td><td style="text-align:right">0.037 s</td></tr>
+</table>
+<p style="font-size:30px;line-height:1.4;color:#14213D;width:1500px">Differences between the weightings are smaller than the seed-to-seed spread. The one consistent pattern: <b>causal varies less between seeds</b> (a hint; 3 seeds is too few to confirm).</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7280">Review 2 · Causality-aware PINN-MPC · 9 · Mean ± standard deviation over seeds 0–2</p>
+<aside>IAE is integrated absolute error of outlet concentration. Bias correction lowers IAE by about 0.005 to 0.008 and cuts the offset by about 60 %. On most open-loop metrics the causal arm’s spread across seeds is 2 to 6 times smaller than uniform’s, which is worth testing with more seeds.</aside>
+</section>

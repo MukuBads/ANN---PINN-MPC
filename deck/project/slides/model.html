@@ -1,0 +1,22 @@
+<section id="model" style="background:#14213D;color:#F7F5F0;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#F08A3E">01 · Working model</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#F7F5F0">Near-perfect-model tracking at 1/200 of the cost</h2>
+<div style="display:flex;gap:32px;flex:1;align-items:stretch">
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px;background:#1E2F52;padding:48px;border-top:6px solid #F08A3E;border-radius:12px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:120px;font-weight:600;line-height:1;color:#F7F5F0">0.318</p>
+<p style="font-size:30px;line-height:1.4;color:#BFC8D9">closed-loop IAE<br>perfect-model MPC: 0.306</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px;background:#1E2F52;padding:48px;border-top:6px solid #F08A3E;border-radius:12px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:120px;font-weight:600;line-height:1;color:#F7F5F0">0.04 s</p>
+<p style="font-size:30px;line-height:1.4;color:#BFC8D9">mean MPC solve<br>finite-difference MPC: 8.15 s</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px;background:#1E2F52;padding:48px;border-top:6px solid #F08A3E;border-radius:12px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:120px;font-weight:600;line-height:1;color:#F7F5F0">1.0 ms</p>
+<p style="font-size:30px;line-height:1.4;color:#BFC8D9">8-hop prediction<br>finite-difference model: 35 ms</p>
+</div>
+</div>
+<p style="font-size:28px;line-height:1.4;color:#F7F5F0">Pipeline: reactor profiles → 6 Legendre coefficients each → PINN (15 → 5 × 64 tanh → 2) predicts one hop → chained 8 hops → MPC optimises with exact gradients. Trained from the PDE alone, no labelled data.</p>
+<p style="font-size:24px;line-height:1.4;color:#BFC8D9">Mean over 3 seeds and both weightings, with filtered bias correction. IAE = integrated absolute tracking error.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#9AA6BD">Review 2 · Causality-aware PINN-MPC · 2</p>
+<aside>This is the working model. Tracking is within 4 % of an MPC that uses the exact finite-difference model, and each optimisation is about 200 times faster because a prediction is a forward pass and the gradient comes from automatic differentiation. Training is a one-off 5–6 minutes per network.</aside>
+</section>

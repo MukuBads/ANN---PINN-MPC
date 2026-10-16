@@ -1,0 +1,17 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-15T23:05:00+05:30"},
+  "lists": "css",
+  "title": "PINN-MPC Review 2",
+  "cover": "cover",
+  "order": ["cover", "model", "closed", "issues", "tuning"],
+  "sections": {
+    "s1": {"description": "The working model: pipeline, headline numbers and closed-loop tracking.", "start": "cover"},
+    "s2": {"description": "Performance issues and the parameter tuning under way.", "start": "issues"}
+  },
+  "faces": {
+    "source-serif-4": {"family": "Source Serif 4", "href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400..700&display=swap"},
+    "ibm-plex-sans": {"family": "IBM Plex Sans", "href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"}
+  },
+  "designSystems": []
+}

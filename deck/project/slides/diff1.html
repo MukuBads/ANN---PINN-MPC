@@ -1,0 +1,13 @@
+<section id="diff1" style="background:#F7F5F0;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#B4501A">04 · Difficulties</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#14213D">Difficulties faced (1 of 2): model and data</h2>
+<table style="font-size:26px;color:#14213D">
+<tr><th style="width:36%">Difficulty</th><th style="width:42%">What we did</th><th style="width:22%">Status</th></tr>
+<tr><td>A scalar y₀ cannot carry a profile from one hop to the next</td><td>Encode each profile with 6 Legendre coefficients; re-encode every hop</td><td>Solved</td></tr>
+<tr><td>No dataset, yet training needs realistic initial states</td><td>Blend and perturb steady-state profiles, plus 25 % box samples</td><td>Solved: 98–99 % coverage</td></tr>
+<tr><td>Training profiles broke the inlet boundary condition</td><td>v2 encoder imposes both boundary conditions exactly</td><td>Fixed; main v1 problem</td></tr>
+<tr><td>Causal weights are defined for one trajectory</td><td>Compute weights per (profile, input) instance</td><td>Done; batch-level is open</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7280">Review 2 · Causality-aware PINN-MPC · 12</p>
+<aside>The first one is the biggest design change since Review 1. The second is the “no labels” problem: we still need a distribution of starting states, and our first steady-state-only box covered just 79 % of real transient states. The third is the one that explained the v1 results.</aside>
+</section>

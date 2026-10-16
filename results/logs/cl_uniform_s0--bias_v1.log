@@ -1,0 +1,65 @@
+[pinn_uniform_s0_bias] k= 0  r=0.354  y=0.3619  u=0.9815  solve  1029.2 ms  evals 19
+[pinn_uniform_s0_bias] k= 1  r=0.354  y=0.3655  u=1.0178  solve   933.6 ms  evals 22
+[pinn_uniform_s0_bias] k= 2  r=0.354  y=0.3579  u=0.9935  solve    28.5 ms  evals 13
+[pinn_uniform_s0_bias] k= 3  r=0.354  y=0.3582  u=0.9904  solve    27.3 ms  evals 13
+[pinn_uniform_s0_bias] k= 4  r=0.150  y=0.2737  u=1.1500  solve    27.9 ms  evals 13
+[pinn_uniform_s0_bias] k= 5  r=0.150  y=0.1307  u=1.0848  solve    33.8 ms  evals 14
+[pinn_uniform_s0_bias] k= 6  r=0.150  y=0.1175  u=0.9500  solve    74.8 ms  evals 26
+[pinn_uniform_s0_bias] k= 7  r=0.150  y=0.1735  u=1.0746  solve    46.4 ms  evals 15
+[pinn_uniform_s0_bias] k= 8  r=0.150  y=0.1566  u=1.1329  solve    41.8 ms  evals 14
+[pinn_uniform_s0_bias] k= 9  r=0.150  y=0.1216  u=0.9970  solve    45.5 ms  evals 17
+[pinn_uniform_s0_bias] k=10  r=0.150  y=0.1557  u=1.0102  solve    93.3 ms  evals 30
+[pinn_uniform_s0_bias] k=11  r=0.150  y=0.1712  u=1.1346  solve    95.9 ms  evals 41
+[pinn_uniform_s0_bias] k=12  r=0.150  y=0.1275  u=1.0536  solve    30.8 ms  evals 13
+[pinn_uniform_s0_bias] k=13  r=0.150  y=0.1410  u=0.9677  solve    39.8 ms  evals 18
+[pinn_uniform_s0_bias] k=14  r=0.150  y=0.1747  u=1.1203  solve    26.9 ms  evals 12
+[pinn_uniform_s0_bias] k=15  r=0.150  y=0.1374  u=1.0886  solve    32.5 ms  evals 14
+[pinn_uniform_s0_bias] k=16  r=0.150  y=0.1319  u=0.9709  solve    41.1 ms  evals 18
+[pinn_uniform_s0_bias] k=17  r=0.150  y=0.1680  u=1.0854  solve    46.1 ms  evals 18
+[pinn_uniform_s0_bias] k=18  r=0.150  y=0.1496  u=1.1059  solve    31.0 ms  evals 14
+[pinn_uniform_s0_bias] k=19  r=0.150  y=0.1297  u=1.0040  solve    42.0 ms  evals 19
+[pinn_uniform_s0_bias] k=20  r=0.450  y=0.1834  u=0.9500  solve    15.6 ms  evals 7
+[pinn_uniform_s0_bias] k=21  r=0.450  y=0.2947  u=0.9500  solve    36.0 ms  evals 16
+[pinn_uniform_s0_bias] k=22  r=0.450  y=0.4069  u=0.9500  solve    31.6 ms  evals 12
+[pinn_uniform_s0_bias] k=23  r=0.450  y=0.4578  u=1.0200  solve    79.0 ms  evals 34
+[pinn_uniform_s0_bias] k=24  r=0.450  y=0.4537  u=0.9575  solve    31.8 ms  evals 15
+[pinn_uniform_s0_bias] k=25  r=0.450  y=0.4561  u=0.9617  solve    23.4 ms  evals 11
+[pinn_uniform_s0_bias] k=26  r=0.450  y=0.4610  u=0.9954  solve    32.1 ms  evals 15
+[pinn_uniform_s0_bias] k=27  r=0.450  y=0.4556  u=0.9698  solve    33.9 ms  evals 16
+[pinn_uniform_s0_bias] k=28  r=0.450  y=0.4551  u=0.9696  solve    32.3 ms  evals 15
+[pinn_uniform_s0_bias] k=29  r=0.450  y=0.4571  u=0.9835  solve    39.5 ms  evals 15
+[pinn_uniform_s0_bias] k=30  r=0.450  y=0.4552  u=0.9743  solve    36.0 ms  evals 16
+[pinn_uniform_s0_bias] k=31  r=0.450  y=0.4548  u=0.9731  solve    31.6 ms  evals 15
+[pinn_uniform_s0_bias] k=32  r=0.450  y=0.4557  u=0.9789  solve    30.4 ms  evals 15
+[pinn_uniform_s0_bias] k=33  r=0.450  y=0.4550  u=0.9757  solve    49.3 ms  evals 24
+[pinn_uniform_s0_bias] k=34  r=0.450  y=0.4549  u=0.9748  solve    41.4 ms  evals 15
+[pinn_uniform_s0_bias] k=35  r=0.450  y=0.4552  u=0.9771  solve    33.2 ms  evals 15
+[pinn_uniform_s0_bias] k=36  r=0.080  y=0.3440  u=1.1500  solve    20.8 ms  evals 9
+[pinn_uniform_s0_bias] k=37  r=0.080  y=0.1139  u=1.1500  solve    26.8 ms  evals 11
+[pinn_uniform_s0_bias] k=38  r=0.080  y=0.0620  u=1.0004  solve    43.0 ms  evals 19
+[pinn_uniform_s0_bias] k=39  r=0.080  y=0.0943  u=1.0720  solve    36.3 ms  evals 17
+[pinn_uniform_s0_bias] k=40  r=0.080  y=0.0979  u=1.1500  solve    28.2 ms  evals 13
+[pinn_uniform_s0_bias] k=41  r=0.080  y=0.0652  u=1.0840  solve    27.8 ms  evals 13
+[pinn_uniform_s0_bias] k=42  r=0.080  y=0.0723  u=1.0362  solve    38.3 ms  evals 18
+[pinn_uniform_s0_bias] k=43  r=0.080  y=0.0941  u=1.1151  solve    33.7 ms  evals 14
+[pinn_uniform_s0_bias] k=44  r=0.080  y=0.0789  u=1.1163  solve    28.4 ms  evals 13
+[pinn_uniform_s0_bias] k=45  r=0.080  y=0.0688  u=1.0589  solve    89.4 ms  evals 43
+[pinn_uniform_s0_bias] k=46  r=0.080  y=0.0831  u=1.0796  solve    37.6 ms  evals 17
+[pinn_uniform_s0_bias] k=47  r=0.080  y=0.0861  u=1.1141  solve    25.7 ms  evals 12
+[pinn_uniform_s0_bias] k=48  r=0.080  y=0.0739  u=1.0877  solve    30.9 ms  evals 14
+[pinn_uniform_s0_bias] k=49  r=0.080  y=0.0764  u=1.0693  solve    38.8 ms  evals 17
+[pinn_uniform_s0_bias] k=50  r=0.080  y=0.0850  u=1.0978  solve    34.0 ms  evals 15
+[pinn_uniform_s0_bias] k=51  r=0.080  y=0.0799  u=1.1001  solve    29.3 ms  evals 13
+[pinn_uniform_s0_bias] k=52  r=0.300  y=0.1068  u=0.9500  solve    22.7 ms  evals 10
+[pinn_uniform_s0_bias] k=53  r=0.300  y=0.2031  u=0.9500  solve    24.1 ms  evals 11
+[pinn_uniform_s0_bias] k=54  r=0.300  y=0.3074  u=1.0411  solve    37.6 ms  evals 15
+[pinn_uniform_s0_bias] k=55  r=0.300  y=0.2960  u=1.0779  solve    33.9 ms  evals 14
+[pinn_uniform_s0_bias] k=56  r=0.300  y=0.2629  u=0.9500  solve    31.2 ms  evals 14
+[pinn_uniform_s0_bias] k=57  r=0.300  y=0.3045  u=0.9685  solve    39.2 ms  evals 17
+[pinn_uniform_s0_bias] k=58  r=0.300  y=0.3182  u=1.1014  solve    31.6 ms  evals 14
+[pinn_uniform_s0_bias] k=59  r=0.300  y=0.2782  u=0.9768  solve    27.4 ms  evals 12
+[pinn_uniform_s0_bias] k=60  r=0.300  y=0.2985  u=0.9500  solve    39.6 ms  evals 15
+[pinn_uniform_s0_bias] k=61  r=0.300  y=0.3189  u=1.0895  solve    38.1 ms  evals 14
+[pinn_uniform_s0_bias] k=62  r=0.300  y=0.2846  u=1.0006  solve    45.4 ms  evals 13
+[pinn_uniform_s0_bias] k=63  r=0.300  y=0.2936  u=0.9500  solve    62.0 ms  evals 26
+pinn_uniform_s0_bias {"IAE": 0.45058408252631954, "ISE": 0.06019995611765602, "mean_solve_time_s": 0.06792513864061078, "max_solve_time_s": 1.0291981169998508, "mean_inloop_pred_err": 0.016578212800159843, "total_variation_u": 3.7324251722604975, "offset_mean": 0.0084099745345085}

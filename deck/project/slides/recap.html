@@ -1,0 +1,24 @@
+<section id="recap" style="background:#F7F5F0;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#B4501A">01 · Recap</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#14213D">From proposal to working model</h2>
+<div style="display:flex;gap:40px;flex:1">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#ECE8DF;padding:48px;border-radius:16px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#4A5568">Review 1 · research</p>
+<ul style="font-size:30px;line-height:1.45;color:#14213D">
+<li>Put a control-oriented PINN inside MPC for a tubular reactor</li>
+<li>Compare uniform vs causal temporal weighting (Wang et al., 2024)</li>
+<li>Judge them on closed-loop tracking error</li>
+</ul>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#14213D;padding:48px;border-radius:16px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#F08A3E">Review 2 · today</p>
+<ul style="font-size:30px;line-height:1.45;color:#F7F5F0">
+<li>A working PINN-MPC on a finite-difference plant</li>
+<li>Uniform vs causal, 3 seeds each, open and closed loop</li>
+<li>What broke in the first version, and how we fixed it</li>
+</ul>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7280">Review 2 · Causality-aware PINN-MPC · 2</p>
+<aside>Review 1 was research only: the idea was to put a PINN inside MPC and test whether causal weighting during training gives a better controller. Today we have the full pipeline running, both training variants with three seeds each, and an honest account of the problems we hit.</aside>
+</section>

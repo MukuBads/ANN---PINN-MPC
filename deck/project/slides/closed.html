@@ -1,0 +1,14 @@
+<section id="closed" style="background:#F7F5F0;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#B4501A">01 · Working model</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#14213D">Closed loop: every setpoint change is tracked</h2>
+<div style="display:flex;gap:48px;align-items:center">
+<img src="/_blob/087d94cc2fa28fa9b11e4da39fc55367" alt="Closed-loop outlet concentration and jacket temperature over 16 residence times for finite-difference MPC, uniform PINN-MPC and causal PINN-MPC; all three curves follow the setpoint steps closely" style="width:1080px;height:600px;object-fit:contain;background:#FFFFFF;border-radius:12px">
+<div style="flex:1;display:flex;flex-direction:column;gap:28px">
+<p style="font-size:30px;line-height:1.4;color:#14213D">Setpoints 0.354 → 0.15 → 0.45 → 0.08 → 0.30 on the finite-difference plant.</p>
+<p style="font-size:30px;line-height:1.4;color:#14213D">IAE over 3 seeds: uniform 0.318 ± 0.004, causal 0.318 ± 0.002; perfect-model MPC 0.306.</p>
+<p style="font-size:30px;line-height:1.4;color:#14213D">Largest deviation: after the step to 0.08 (t ≈ 10), near the lower input bound.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7280">Review 2 · Causality-aware PINN-MPC · 3 · Figure: seed 0, filtered bias correction</p>
+<aside>Green is the perfect-model reference, blue and orange are the two PINN controllers. The traces lie on top of each other almost everywhere. Without filtering, the bias correction pushed the input bound to bound in v1; a first-order filter with gain 0.3 fixed that.</aside>
+</section>

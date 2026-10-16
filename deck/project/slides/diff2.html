@@ -1,0 +1,14 @@
+<section id="diff2" style="background:#F7F5F0;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#B4501A">04 · Difficulties</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#14213D">Difficulties faced (2 of 2): training and control</h2>
+<table style="font-size:26px;color:#14213D">
+<tr><th style="width:36%">Difficulty</th><th style="width:42%">What we did</th><th style="width:22%">Status</th></tr>
+<tr><td>L-BFGS needs a fixed objective; causal weights keep changing</td><td>Freeze the weights in blocks of 200 L-BFGS steps</td><td>Works</td></tr>
+<tr><td>CPU compute: float64 and second derivatives</td><td>JAX jit, 4,096 points per step; 37 → 5–6 min per model on a faster CPU</td><td>Made 3 seeds affordable</td></tr>
+<tr><td>Steady-state offset; raw bias correction caused a limit cycle</td><td>First-order filter (gain 0.3) on the bias</td><td>Solved</td></tr>
+<tr><td>Stiff kinetics are hard to learn in the budget</td><td>Moderate regime: E = 15, Pe = 10</td><td>Stiffer cases next</td></tr>
+<tr><td>A single seed gave a misleading result</td><td>3 seeds per arm, report mean ± spread</td><td>Done</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7280">Review 2 · Causality-aware PINN-MPC · 13</p>
+<aside>The 37-minute figure was on the original build machine with one core; on our laptop each model trains in 5 to 6 minutes, which is what made the three-seed study possible. Without the filter, bias correction pushed the jacket temperature from bound to bound in v1 and doubled the input’s total variation.</aside>
+</section>

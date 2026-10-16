@@ -1,0 +1,65 @@
+[fd] k= 0  r=0.354  y=0.3538  u=0.9994  solve 11462.3 ms  evals 112
+[fd] k= 1  r=0.354  y=0.3540  u=1.0003  solve 13541.8 ms  evals 192
+[fd] k= 2  r=0.354  y=0.3540  u=0.9997  solve  4459.8 ms  evals 72
+[fd] k= 3  r=0.354  y=0.3540  u=0.9999  solve  6631.0 ms  evals 124
+[fd] k= 4  r=0.150  y=0.2616  u=1.1500  solve 10558.5 ms  evals 92
+[fd] k= 5  r=0.150  y=0.1591  u=1.0112  solve 11359.7 ms  evals 100
+[fd] k= 6  r=0.150  y=0.1440  u=1.0579  solve  7977.6 ms  evals 76
+[fd] k= 7  r=0.150  y=0.1515  u=1.0667  solve  9118.3 ms  evals 96
+[fd] k= 8  r=0.150  y=0.1501  u=1.0513  solve  7990.8 ms  evals 84
+[fd] k= 9  r=0.150  y=0.1497  u=1.0587  solve 12351.5 ms  evals 140
+[fd] k=10  r=0.150  y=0.1501  u=1.0571  solve  5685.2 ms  evals 84
+[fd] k=11  r=0.150  y=0.1500  u=1.0568  solve  8131.2 ms  evals 124
+[fd] k=12  r=0.150  y=0.1500  u=1.0572  solve  7964.8 ms  evals 128
+[fd] k=13  r=0.150  y=0.1500  u=1.0570  solve  4088.3 ms  evals 68
+[fd] k=14  r=0.150  y=0.1500  u=1.0571  solve  3928.5 ms  evals 76
+[fd] k=15  r=0.150  y=0.1500  u=1.0571  solve 19263.4 ms  evals 452
+[fd] k=16  r=0.150  y=0.1500  u=1.0571  solve  3100.2 ms  evals 76
+[fd] k=17  r=0.150  y=0.1500  u=1.0571  solve  1823.2 ms  evals 44
+[fd] k=18  r=0.150  y=0.1500  u=1.0571  solve  1999.9 ms  evals 44
+[fd] k=19  r=0.150  y=0.1500  u=1.0571  solve  2469.4 ms  evals 60
+[fd] k=20  r=0.450  y=0.1865  u=0.9500  solve  9547.4 ms  evals 96
+[fd] k=21  r=0.450  y=0.2785  u=0.9500  solve  6931.2 ms  evals 72
+[fd] k=22  r=0.450  y=0.3881  u=0.9500  solve 14686.2 ms  evals 140
+[fd] k=23  r=0.450  y=0.4485  u=1.0131  solve 21664.1 ms  evals 208
+[fd] k=24  r=0.450  y=0.4526  u=0.9639  solve  7420.5 ms  evals 72
+[fd] k=25  r=0.450  y=0.4490  u=0.9767  solve 13853.9 ms  evals 156
+[fd] k=26  r=0.450  y=0.4500  u=0.9797  solve  5754.3 ms  evals 68
+[fd] k=27  r=0.450  y=0.4501  u=0.9762  solve 14919.4 ms  evals 156
+[fd] k=28  r=0.450  y=0.4499  u=0.9773  solve  6864.0 ms  evals 100
+[fd] k=29  r=0.450  y=0.4500  u=0.9774  solve  5620.1 ms  evals 88
+[fd] k=30  r=0.450  y=0.4500  u=0.9772  solve 11059.5 ms  evals 156
+[fd] k=31  r=0.450  y=0.4500  u=0.9772  solve  7426.2 ms  evals 152
+[fd] k=32  r=0.450  y=0.4500  u=0.9772  solve  2690.4 ms  evals 52
+[fd] k=33  r=0.450  y=0.4500  u=0.9772  solve  5060.8 ms  evals 80
+[fd] k=34  r=0.450  y=0.4500  u=0.9772  solve  2909.6 ms  evals 72
+[fd] k=35  r=0.450  y=0.4500  u=0.9772  solve  6267.3 ms  evals 156
+[fd] k=36  r=0.080  y=0.3400  u=1.1500  solve 13738.3 ms  evals 104
+[fd] k=37  r=0.080  y=0.1130  u=1.1500  solve 17453.6 ms  evals 136
+[fd] k=38  r=0.080  y=0.0637  u=0.9915  solve  8861.0 ms  evals 68
+[fd] k=39  r=0.080  y=0.0814  u=1.1414  solve 11852.0 ms  evals 92
+[fd] k=40  r=0.080  y=0.0815  u=1.0737  solve 14092.5 ms  evals 124
+[fd] k=41  r=0.080  y=0.0789  u=1.0885  solve  8692.1 ms  evals 96
+[fd] k=42  r=0.080  y=0.0804  u=1.0916  solve  8008.3 ms  evals 88
+[fd] k=43  r=0.080  y=0.0800  u=1.0872  solve  7116.8 ms  evals 88
+[fd] k=44  r=0.080  y=0.0799  u=1.0892  solve 14460.5 ms  evals 184
+[fd] k=45  r=0.080  y=0.0800  u=1.0888  solve  5518.6 ms  evals 84
+[fd] k=46  r=0.080  y=0.0800  u=1.0887  solve  4874.1 ms  evals 72
+[fd] k=47  r=0.080  y=0.0800  u=1.0888  solve  6567.4 ms  evals 112
+[fd] k=48  r=0.080  y=0.0800  u=1.0888  solve  2264.0 ms  evals 44
+[fd] k=49  r=0.080  y=0.0800  u=1.0888  solve  2466.7 ms  evals 52
+[fd] k=50  r=0.080  y=0.0800  u=1.0888  solve  2685.6 ms  evals 60
+[fd] k=51  r=0.080  y=0.0800  u=1.0888  solve  3056.8 ms  evals 72
+[fd] k=52  r=0.300  y=0.1151  u=0.9500  solve 11112.2 ms  evals 100
+[fd] k=53  r=0.300  y=0.2150  u=0.9500  solve  6771.5 ms  evals 60
+[fd] k=54  r=0.300  y=0.3006  u=1.0804  solve  7846.7 ms  evals 68
+[fd] k=55  r=0.300  y=0.3041  u=0.9865  solve  8222.0 ms  evals 84
+[fd] k=56  r=0.300  y=0.2980  u=1.0148  solve  7464.5 ms  evals 84
+[fd] k=57  r=0.300  y=0.3003  u=1.0165  solve 11690.1 ms  evals 132
+[fd] k=58  r=0.300  y=0.3002  u=1.0112  solve 10585.3 ms  evals 136
+[fd] k=59  r=0.300  y=0.2999  u=1.0134  solve  8892.4 ms  evals 132
+[fd] k=60  r=0.300  y=0.3000  u=1.0132  solve 11378.7 ms  evals 168
+[fd] k=61  r=0.300  y=0.3000  u=1.0130  solve  4936.7 ms  evals 80
+[fd] k=62  r=0.300  y=0.3000  u=1.0131  solve  2288.8 ms  evals 36
+[fd] k=63  r=0.300  y=0.3000  u=1.0131  solve  2098.9 ms  evals 40
+fd {"IAE": 0.3055148638581575, "ISE": 0.056397560683310914, "mean_solve_time_s": 8.149635630156219, "max_solve_time_s": 21.664060942000106, "mean_inloop_pred_err": null, "total_variation_u": 1.5872737704637832, "offset_mean": 3.600905812628334e-06}

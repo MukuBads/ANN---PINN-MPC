@@ -1,0 +1,4 @@
+test set: 40 trajectories x 20 hops (22.9s)
+uniform_s0_v1: within-hop RMSE_C tau=0 2.42e-03 tau=0.5 6.24e-03 tau=1 8.03e-03 | C_out err hop1 8.55e-03 hop8 2.47e-02 hop20 1.64e-02 | 8-hop prediction 1.75 ms
+causal_s0_v1: within-hop RMSE_C tau=0 2.78e-03 tau=0.5 6.47e-03 tau=1 1.01e-02 | C_out err hop1 9.37e-03 hop8 3.25e-02 hop20 2.14e-02 | 8-hop prediction 1.93 ms
+encoding-only floor: C_out err hop1 2.27e-06 hop20 2.87e-06; FD 8-hop prediction 210.4 ms

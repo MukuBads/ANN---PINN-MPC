@@ -1,0 +1,5 @@
+jax>=0.4.30
+optax>=0.2.3
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8

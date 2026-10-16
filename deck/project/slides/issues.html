@@ -1,0 +1,24 @@
+<section id="issues" style="background:#F7F5F0;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#B4501A">02 · Performance issues</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#14213D">Where the model still falls short</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border-left:6px solid #E8772E;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;color:#14213D">Causal weighting gives no gain yet</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">Across 3 seeds, causal and uniform tie (IAE 0.322 vs 0.326 without bias correction). The expected improvement has not appeared.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border-left:6px solid #E8772E;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;color:#14213D">ε annealing never triggers</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">Causal weights peak at 0.94, under the 0.99 threshold, so ε stays at 1: causal training only runs at its weakest setting.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border-left:6px solid #E8772E;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;color:#14213D">Training stops before convergence</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">The PDE residual is still falling at the end of the budget; the causal arm ends higher (4.4 vs 3.1 × 10⁻³).</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border-left:6px solid #E8772E;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;color:#14213D">Gap to the perfect model</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">IAE is 5–7 % above FD-MPC without bias correction, and uniform’s 8-hop error varies about ±40 % between seeds.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7280">Review 2 · Causality-aware PINN-MPC · 4</p>
+<aside>The model works, but not yet as well as it should. Causal weighting was the idea under test and it has not shown a benefit. The most likely reason is the training configuration: ε never leaves its starting value and training ends while the residual is still falling. These point directly at the hyperparameters, which is what we are tuning now.</aside>
+</section>

@@ -1,0 +1,25 @@
+[causal_s0] network [15, 64, 64, 64, 64, 64, 2]  trainable parameters = 17794
+[causal_s0] adam  it      0  loss 2.152e+00  L_pde 8.236e-01  L_ic 6.454e-02  L_bc 1.416e-01  w_min 0.020  t 6s
+[causal_s0] adam  it    100  loss 1.320e-01  L_pde 1.412e+00  L_ic 3.493e-04  L_bc 4.870e-04  w_min 0.065  t 32s
+[causal_s0] adam  it    200  loss 1.689e-01  L_pde 1.940e+00  L_ic 5.311e-04  L_bc 1.071e-03  w_min 0.047  t 57s
+[causal_s0] adam  it    300  loss 1.375e-01  L_pde 1.164e+00  L_ic 8.182e-04  L_bc 1.720e-03  w_min 0.142  t 82s
+[causal_s0] adam  it    400  loss 1.005e-01  L_pde 6.694e-01  L_ic 1.162e-03  L_bc 1.172e-03  w_min 0.160  t 106s
+[causal_s0] adam  it    500  loss 9.528e-02  L_pde 7.721e-01  L_ic 8.568e-04  L_bc 9.798e-04  w_min 0.311  t 133s
+[causal_s0] adam  it    600  loss 1.500e-01  L_pde 1.889e+00  L_ic 1.347e-03  L_bc 1.408e-03  w_min 0.219  t 158s
+[causal_s0] adam  it    700  loss 8.220e-02  L_pde 5.198e-01  L_ic 9.048e-04  L_bc 7.481e-04  w_min 0.421  t 184s
+[causal_s0] adam  it    800  loss 8.619e-02  L_pde 4.793e-01  L_ic 4.686e-04  L_bc 1.016e-03  w_min 0.351  t 207s
+[causal_s0] adam  it    900  loss 8.689e-02  L_pde 7.881e-01  L_ic 6.845e-04  L_bc 8.392e-04  w_min 0.385  t 226s
+[causal_s0] adam  it   1000  loss 5.908e-02  L_pde 3.524e-01  L_ic 6.712e-04  L_bc 8.077e-04  w_min 0.480  t 245s
+[causal_s0] adam  it   1100  loss 5.471e-02  L_pde 3.725e-01  L_ic 3.195e-04  L_bc 5.791e-04  w_min 0.498  t 265s
+[causal_s0] adam  it   1200  loss 3.658e-02  L_pde 1.297e-01  L_ic 1.072e-04  L_bc 3.077e-04  w_min 0.607  t 285s
+[causal_s0] adam  it   1300  loss 8.040e-02  L_pde 6.115e-01  L_ic 8.786e-04  L_bc 1.125e-03  w_min 0.456  t 305s
+[causal_s0] adam  it   1400  loss 6.734e-02  L_pde 5.482e-01  L_ic 6.676e-04  L_bc 9.483e-04  w_min 0.468  t 323s
+[causal_s0] adam  it   1500  loss 4.852e-02  L_pde 2.228e-01  L_ic 3.855e-04  L_bc 6.890e-04  w_min 0.577  t 343s
+[causal_s0] adam  it   1600  loss 5.403e-02  L_pde 5.167e-01  L_ic 3.407e-04  L_bc 6.591e-04  w_min 0.559  t 362s
+[causal_s0] adam  it   1700  loss 4.189e-02  L_pde 2.366e-01  L_ic 3.284e-04  L_bc 5.101e-04  w_min 0.625  t 381s
+[causal_s0] adam  it   1800  loss 5.946e-02  L_pde 6.977e-01  L_ic 5.949e-04  L_bc 1.015e-03  w_min 0.522  t 400s
+[causal_s0] adam  it   1900  loss 6.533e-02  L_pde 8.731e-01  L_ic 5.765e-04  L_bc 6.098e-04  w_min 0.479  t 420s
+[causal_s0] adam  it   2000  loss 6.354e-02  L_pde 6.322e-01  L_ic 1.319e-03  L_bc 7.197e-04  w_min 0.612  t 439s
+[causal_s0] adam  it   2100  loss 4.557e-02  L_pde 3.794e-01  L_ic 5.427e-04  L_bc 4.196e-04  w_min 0.615  t 459s
+[causal_s0] adam  it   2200  loss 4.008e-02  L_pde 2.380e-01  L_ic 1.904e-04  L_bc 5.822e-04  w_min 0.600  t 478s
+[causal_s0] adam  it   2300  loss 3.972e-02  L_pde 2.698e-01  L_ic 2.425e-04  L_bc 8.493e-04  w_min 0.631  t 499s

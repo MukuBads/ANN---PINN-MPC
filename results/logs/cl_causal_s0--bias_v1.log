@@ -1,0 +1,67 @@
+[pinn_causal_s0_bias] k= 0  r=0.354  y=0.3681  u=0.9669  solve  1032.9 ms  evals 14
+[pinn_causal_s0_bias] k= 1  r=0.354  y=0.3774  u=1.0257  solve   915.0 ms  evals 13
+/usr/local/lib/python3.13/dist-packages/scipy/integrate/_ivp/bdf.py:421: RuntimeWarning: invalid value encountered in subtract
+  D[order + 2] = d - D[order + 1]
+[pinn_causal_s0_bias] k= 2  r=0.354  y=0.3657  u=0.9930  solve    36.0 ms  evals 14
+[pinn_causal_s0_bias] k= 3  r=0.354  y=0.3576  u=0.9961  solve    33.9 ms  evals 14
+[pinn_causal_s0_bias] k= 4  r=0.150  y=0.2663  u=1.1500  solve    26.3 ms  evals 12
+[pinn_causal_s0_bias] k= 5  r=0.150  y=0.1231  u=1.0906  solve    30.2 ms  evals 14
+[pinn_causal_s0_bias] k= 6  r=0.150  y=0.1104  u=0.9500  solve    34.0 ms  evals 16
+[pinn_causal_s0_bias] k= 7  r=0.150  y=0.1685  u=1.0710  solve    29.6 ms  evals 14
+[pinn_causal_s0_bias] k= 8  r=0.150  y=0.1692  u=1.1094  solve    79.3 ms  evals 37
+[pinn_causal_s0_bias] k= 9  r=0.150  y=0.1273  u=1.0485  solve    26.7 ms  evals 12
+[pinn_causal_s0_bias] k=10  r=0.150  y=0.1370  u=1.0102  solve    32.8 ms  evals 15
+[pinn_causal_s0_bias] k=11  r=0.150  y=0.1645  u=1.0835  solve    29.8 ms  evals 14
+[pinn_causal_s0_bias] k=12  r=0.150  y=0.1509  u=1.0758  solve    85.5 ms  evals 40
+[pinn_causal_s0_bias] k=13  r=0.150  y=0.1362  u=1.0405  solve    29.5 ms  evals 14
+[pinn_causal_s0_bias] k=14  r=0.150  y=0.1485  u=1.0454  solve    29.8 ms  evals 14
+[pinn_causal_s0_bias] k=15  r=0.150  y=0.1567  u=1.0734  solve    29.9 ms  evals 14
+[pinn_causal_s0_bias] k=16  r=0.150  y=0.1466  u=1.0608  solve    30.3 ms  evals 14
+[pinn_causal_s0_bias] k=17  r=0.150  y=0.1439  u=1.0461  solve    32.1 ms  evals 14
+[pinn_causal_s0_bias] k=18  r=0.150  y=0.1515  u=1.0575  solve    31.2 ms  evals 14
+[pinn_causal_s0_bias] k=19  r=0.150  y=0.1519  u=1.0649  solve    28.6 ms  evals 13
+[pinn_causal_s0_bias] k=20  r=0.450  y=0.1831  u=0.9500  solve     4.6 ms  evals 2
+[pinn_causal_s0_bias] k=21  r=0.450  y=0.2724  u=0.9500  solve     3.0 ms  evals 1
+[pinn_causal_s0_bias] k=22  r=0.450  y=0.3828  u=0.9500  solve    16.2 ms  evals 7
+[pinn_causal_s0_bias] k=23  r=0.450  y=0.4666  u=0.9553  solve    43.9 ms  evals 20
+[pinn_causal_s0_bias] k=24  r=0.450  y=0.4932  u=1.0022  solve    29.9 ms  evals 13
+[pinn_causal_s0_bias] k=25  r=0.450  y=0.4752  u=0.9728  solve    33.8 ms  evals 14
+[pinn_causal_s0_bias] k=26  r=0.450  y=0.4591  u=0.9714  solve    36.6 ms  evals 16
+[pinn_causal_s0_bias] k=27  r=0.450  y=0.4594  u=0.9700  solve    42.2 ms  evals 19
+[pinn_causal_s0_bias] k=28  r=0.450  y=0.4635  u=0.9778  solve    41.7 ms  evals 19
+[pinn_causal_s0_bias] k=29  r=0.450  y=0.4628  u=0.9757  solve    28.0 ms  evals 12
+[pinn_causal_s0_bias] k=30  r=0.450  y=0.4603  u=0.9748  solve    30.4 ms  evals 13
+[pinn_causal_s0_bias] k=31  r=0.450  y=0.4594  u=0.9742  solve    32.4 ms  evals 13
+[pinn_causal_s0_bias] k=32  r=0.450  y=0.4598  u=0.9750  solve    77.2 ms  evals 36
+[pinn_causal_s0_bias] k=33  r=0.450  y=0.4600  u=0.9751  solve    29.1 ms  evals 13
+[pinn_causal_s0_bias] k=34  r=0.450  y=0.4598  u=0.9750  solve    28.7 ms  evals 13
+[pinn_causal_s0_bias] k=35  r=0.450  y=0.4596  u=0.9749  solve    27.4 ms  evals 13
+[pinn_causal_s0_bias] k=36  r=0.080  y=0.3481  u=1.1500  solve    20.0 ms  evals 9
+[pinn_causal_s0_bias] k=37  r=0.080  y=0.1155  u=1.1500  solve    24.2 ms  evals 11
+[pinn_causal_s0_bias] k=38  r=0.080  y=0.0557  u=1.0312  solve    42.4 ms  evals 20
+[pinn_causal_s0_bias] k=39  r=0.080  y=0.0800  u=1.0614  solve    36.5 ms  evals 16
+[pinn_causal_s0_bias] k=40  r=0.080  y=0.0994  u=1.1191  solve    27.4 ms  evals 12
+[pinn_causal_s0_bias] k=41  r=0.080  y=0.0789  u=1.1013  solve    30.9 ms  evals 13
+[pinn_causal_s0_bias] k=42  r=0.080  y=0.0704  u=1.0712  solve    35.1 ms  evals 16
+[pinn_causal_s0_bias] k=43  r=0.080  y=0.0807  u=1.0839  solve    35.5 ms  evals 17
+[pinn_causal_s0_bias] k=44  r=0.080  y=0.0848  u=1.0986  solve    25.0 ms  evals 12
+[pinn_causal_s0_bias] k=45  r=0.080  y=0.0787  u=1.0911  solve    28.1 ms  evals 13
+[pinn_causal_s0_bias] k=46  r=0.080  y=0.0771  u=1.0834  solve    33.4 ms  evals 15
+[pinn_causal_s0_bias] k=47  r=0.080  y=0.0805  u=1.0882  solve    34.1 ms  evals 15
+[pinn_causal_s0_bias] k=48  r=0.080  y=0.0812  u=1.0919  solve    29.8 ms  evals 13
+[pinn_causal_s0_bias] k=49  r=0.080  y=0.0793  u=1.0891  solve    33.3 ms  evals 14
+[pinn_causal_s0_bias] k=50  r=0.080  y=0.0791  u=1.0872  solve    33.1 ms  evals 14
+[pinn_causal_s0_bias] k=51  r=0.080  y=0.0802  u=1.0889  solve    28.4 ms  evals 13
+[pinn_causal_s0_bias] k=52  r=0.300  y=0.1158  u=0.9500  solve    30.6 ms  evals 12
+[pinn_causal_s0_bias] k=53  r=0.300  y=0.2156  u=0.9500  solve    23.4 ms  evals 10
+[pinn_causal_s0_bias] k=54  r=0.300  y=0.3218  u=1.0276  solve    76.5 ms  evals 35
+[pinn_causal_s0_bias] k=55  r=0.300  y=0.3211  u=1.0693  solve    33.1 ms  evals 15
+[pinn_causal_s0_bias] k=56  r=0.300  y=0.2750  u=0.9855  solve    40.7 ms  evals 14
+[pinn_causal_s0_bias] k=57  r=0.300  y=0.2896  u=0.9749  solve    51.4 ms  evals 20
+[pinn_causal_s0_bias] k=58  r=0.300  y=0.3162  u=1.0461  solve    33.1 ms  evals 15
+[pinn_causal_s0_bias] k=59  r=0.300  y=0.3017  u=1.0195  solve    26.0 ms  evals 12
+[pinn_causal_s0_bias] k=60  r=0.300  y=0.2897  u=0.9974  solve    66.3 ms  evals 31
+[pinn_causal_s0_bias] k=61  r=0.300  y=0.3013  u=1.0075  solve    29.2 ms  evals 14
+[pinn_causal_s0_bias] k=62  r=0.300  y=0.3071  u=1.0256  solve    39.4 ms  evals 14
+[pinn_causal_s0_bias] k=63  r=0.300  y=0.2992  u=1.0116  solve    39.1 ms  evals 13
+pinn_causal_s0_bias {"IAE": 0.4537697977042229, "ISE": 0.06179319028626781, "mean_solve_time_s": 0.06397592135937913, "max_solve_time_s": 1.0328843320003216, "mean_inloop_pred_err": 0.029543361482566952, "total_variation_u": 2.148677216691213, "offset_mean": 0.0046595287594990535}

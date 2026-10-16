@@ -1,0 +1,32 @@
+<section id="pipeline" style="background:#F7F5F0;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#B4501A">01 · Setup</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#14213D">One prediction: encode, predict, chain, optimise</h2>
+<div style="display:flex;align-items:center;gap:20px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:32px;border:2px solid #D9D3C7;border-radius:16px">
+<p style="font-size:24px;font-weight:600;color:#B4501A">1</p>
+<h3 style="font-size:36px;font-weight:600;color:#14213D">Encode</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">C and T profiles → 6 Legendre coefficients each, boundary conditions imposed</p>
+</div>
+<x-shape kind="arrow-right" style="width:56px;height:28px;background:#E8772E"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:32px;border:2px solid #D9D3C7;border-radius:16px">
+<p style="font-size:24px;font-weight:600;color:#B4501A">2</p>
+<h3 style="font-size:36px;font-weight:600;color:#14213D">PINN</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">15 inputs → 5 × 64 tanh → C, T over one hop (Δt = 0.25)</p>
+</div>
+<x-shape kind="arrow-right" style="width:56px;height:28px;background:#E8772E"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:32px;border:2px solid #D9D3C7;border-radius:16px">
+<p style="font-size:24px;font-weight:600;color:#B4501A">3</p>
+<h3 style="font-size:36px;font-weight:600;color:#14213D">Chain × 8</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">Re-encode each end state; 8 hops = 2 residence times</p>
+</div>
+<x-shape kind="arrow-right" style="width:56px;height:28px;background:#E8772E"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#14213D;padding:32px;border:2px solid #14213D;border-radius:16px">
+<p style="font-size:24px;font-weight:600;color:#F08A3E">4</p>
+<h3 style="font-size:36px;font-weight:600;color:#F7F5F0">MPC</h3>
+<p style="font-size:26px;line-height:1.4;color:#BFC8D9">L-BFGS-B over 3 moves; exact gradient from jax.grad</p>
+</div>
+</div>
+<p style="font-size:30px;line-height:1.4;color:#14213D;width:1500px"><b>No labelled data:</b> the network learns from the PDE residual, initial and boundary conditions only. 17,794 parameters, float64, JAX.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7280">Review 2 · Causality-aware PINN-MPC · 4</p>
+<aside>The key design change since Review 1: a scalar initial condition cannot carry a whole profile from one hop to the next, so each profile is encoded with Legendre coefficients and re-encoded after every hop. The whole 8-hop chain is differentiable, so the optimiser gets exact gradients in one reverse pass instead of extra simulations.</aside>
+</section>

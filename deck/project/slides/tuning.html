@@ -1,0 +1,17 @@
+<section id="tuning" style="background:#F7F5F0;color:#14213D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#B4501A">03 · Parameter tuning</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15;color:#14213D">Tuning in progress: current settings and what we are trying</h2>
+<table style="font-size:28px;color:#14213D">
+<tr><th style="width:30%">Parameter</th><th style="width:32%">Current</th><th style="width:38%">Tuning</th></tr>
+<tr><td>Causal ε and threshold</td><td>ε = 1, threshold 0.99</td><td>Sweep ε ∈ {1, 10, 100}; lower threshold</td></tr>
+<tr><td>Training budget</td><td>8,000 Adam + 600 L-BFGS</td><td>Train until the residual plateaus</td></tr>
+<tr><td>Learning-rate schedule</td><td>10⁻³, × 0.7 every 1,500</td><td>Slower decay for longer runs</td></tr>
+<tr><td>Collocation points</td><td>4,096 per step</td><td>8,192–10,000 per step</td></tr>
+<tr><td>Loss weights</td><td>IC × 10, BC × 10</td><td>Rebalance against the PDE term</td></tr>
+<tr><td>MPC settings</td><td>q = 100, r = 1, bias filter 0.3</td><td>Less offset, smoother input</td></tr>
+<tr><td>Seeds per arm</td><td>3</td><td>5–10</td></tr>
+</table>
+<p style="font-size:30px;line-height:1.4;color:#14213D">Each network trains in 5–6 minutes, so a full sweep fits in a few hours.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7280">Review 2 · Causality-aware PINN-MPC · 5 · Thank you. Questions?</p>
+<aside>Each row maps to an issue on the previous slide: ε and the threshold to the annealing problem, budget, schedule and collocation points to the unconverged residual, loss weights and MPC settings to the gap to the perfect model, and more seeds to the spread between runs. Training is fast now, so this sweep is practical before the final review.</aside>
+</section>
